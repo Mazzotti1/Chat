@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(118, 98, 209);
+}
+
+#messages{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(183, 238, 158, 0.349);
+    margin: 15px auto;
+    width: 30%;
+    height: 700px;
+   border: solid 1px black;
+   box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.836);
+
+
+}
+
+.user{
+    text-align: center;
+
+}
+.user h1{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+.user input{
+    margin-top: 15px;
+    border: solid 1px green;
+border-radius: 15px;
+text-align: center;
+height: 30px;
+background-color: beige;
+}
+.user button{
+    border: solid 2px green;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 95px;
+    height: 30px;
+    box-shadow: 10px 4px 10px rgba(48, 31, 95, 0.836);
+}
+.user button:hover{
+    background-color: rgba(178, 240, 178, 0.678);
+}
+.mensagem{
+    text-align: center;
+    height: 50px;
+}
+.mensagem input{
+margin-top: 15px;
+border: solid 1px green;
+border-radius: 15px;
+
+background-color: beige;
+width: 40%;
+margin-bottom: 30px;
+}
+.mensagem button{
+    border: solid 2px green;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 95px;
+    height: 30px;
+    box-shadow: 10px 4px 10px rgba(48, 31, 95, 0.836);
+}
+.mensagem button:hover{
+    background-color: rgba(178, 240, 178, 0.678);
+}
+#messages ul li{
+   list-style: none;
+   font-weight: bolder;
+}
